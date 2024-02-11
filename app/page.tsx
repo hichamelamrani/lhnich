@@ -1,3 +1,4 @@
+import SnakeGrid from '@/components/SnakeGrid'
 import React from 'react'
 
 function Home() {
@@ -5,6 +6,8 @@ function Home() {
     <main>
       <div>Home Page</div>
       <p>This Page for L7NICH</p>
+
+      <SnakeGrid/>
     </main>
   )
 }
