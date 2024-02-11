@@ -1,6 +1,6 @@
 "use client"
 
-const GRID_SIZE= 20;
+const GRID_SIZE = 20;
 
 type Point = {
     x: number;
@@ -12,7 +12,7 @@ export default function SnakeGrid() {
         {Array.from({ length: GRID_SIZE }).map((_, y) => (
             <div className="flex" key={y}>
                 {Array.from({ length: GRID_SIZE }).map((_, x) => (
-                    <div key={x} className="w-5 h-5 border border-x-white"></div>
+                    <div key={x} className="w-5 h-5 border border-gray-300"></div>
                 ))}
             </div>
         ))}
